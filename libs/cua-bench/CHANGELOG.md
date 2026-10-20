@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.2](https://github.com/trycua/cua/compare/bench-v0.3.1...bench-v0.3.2) (2026-10-20)
+
+
+### Bug Fixes
+
+* **sdk:** delete the Fleet SDK, pools and claims from the Rust SDK, cua-sandbox, Cua Bench and the apps (CUA-1836) ([#5488](https://github.com/trycua/cua/issues/5488)) ([348c47c](https://github.com/trycua/cua/commit/348c47cc30b1d222844480838ccc4acf53f7a511))
+
 ## [0.3.1](https://github.com/trycua/cua/compare/bench-v0.3.0...bench-v0.3.1) (2026-10-19)
 
 
