@@ -34213,7 +34213,8 @@ public struct AppTeamInput: Equatable, Hashable {
      */
     public var role: String
     /**
-     * `free`, `teams`, ...
+     * `free`, `teams`, ... After the plan is cancelled but while it still
+     * runs, `teams@<RFC 3339 end>`.
      */
     public var plan: String
     /**
@@ -34239,7 +34240,8 @@ public struct AppTeamInput: Equatable, Hashable {
          * The account's role in it.
          */role: String,
         /**
-         * `free`, `teams`, ...
+         * `free`, `teams`, ... After the plan is cancelled but while it still
+         * runs, `teams@<RFC 3339 end>`.
          */plan: String,
         /**
          * Paid seats.

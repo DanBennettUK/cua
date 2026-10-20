@@ -34529,7 +34529,8 @@ export type AppTeamInput = {
      */
     role: string,
     /**
-     * `free`, `teams`, ...
+     * `free`, `teams`, ... After the plan is cancelled but while it still
+     * runs, `teams@<RFC 3339 end>`.
      */
     plan: string,
     /**
